@@ -12,6 +12,5 @@ venv
 *.pyc
 .DS_Store
 .env
-creds.py
 /.mypy_cache*
 .gcloudignore
