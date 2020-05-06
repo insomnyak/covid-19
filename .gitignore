@@ -1,0 +1,17 @@
+data_url.py
+/exports
+/__pycache__
+*/__pycache__
+/log
+/out
+/imports
+/.vscode
+worksheet.ipynb
+test*
+venv
+*.pyc
+.DS_Store
+.env
+creds.py
+/.mypy_cache*
+.gcloudignore
