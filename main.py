@@ -2,6 +2,6 @@ import dl
 
 data = dl.Covid19Data() 
 
-# data.getData()
+data.getData()
 
 data.processData()
