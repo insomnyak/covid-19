@@ -72,7 +72,8 @@ class Covid19Data():
         # ["CovidTracking"]["CountryCurrent"] = "https://covidtracking.com/api/v1/us/current.csv",
         # ["DXY-Covid-19"]["News"] = "https://raw.githubusercontent.com/BlankerL/DXY-COVID-19-Data/master/csv/DXYNews.csv"
     
-    def __init__(self, startDate=startDateDefault('01/22/2020', '%m/%d/%Y'), endDate=endDateDefault(), currentDate=None):
+    def __init__(self, startDate=endDateDefault() - timedelta(days=10), endDate=endDateDefault(), currentDate=None):
+        # startDateDefault('01/22/2020', '%m/%d/%Y')
         self.startDate = startDate
         self.endDate = endDate
         self.currentDate = startDate

@@ -13,3 +13,4 @@ venv
 .DS_Store
 .env
 /.mypy_cache*
+triggers.txt
